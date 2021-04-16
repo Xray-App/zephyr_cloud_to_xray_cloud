@@ -1,0 +1,26 @@
+zapi_base_url: https://prod-api.zephyr4jiracloud.com
+zapi_access_key: 
+zapi_secret_key: 
+
+jira_user: # e.g. john@sexample.com
+jira_username: # e.g. admin
+jira_accountid: # e.g. 8d6a6efe8b559e016623cb11
+jira_api_token: # e.g. jira_api_token
+jira_site: # e.g. https://example.atlassian.net/
+
+
+xray_api_base_url: https://xray.cloud.xpand-it.com
+xray_client_id:
+xray_client_secret: 
+
+
+jql: # .e.g project = CALC and issuetype = Test
+max_tests: 100
+labels_to_add: [] # e.g. [xray, migrated]
+simple_fields_to_copy: [] # e.g. [customfield_10028, customfield_10029, customfield_10030]
+multivalues_fields_to_copy: [] # e.g. [customfield_10031, customfield_10032]
+create_issue_links: false # e.g. boolean: true or false
+preferred_issue_link_type_to_migrate: Test
+destination_project_key: # leave empty to use the same project as the one in the original Test issue
+xray_test_type: Manual # e.g. Manual
+migrate_tests_with_empty_steps: false # e.g. boolean: true or false
