@@ -44,3 +44,7 @@ In order to see the full syntax, please use:
 $ migrate_zephyr_to_xray_cloud.rb --help
 ```
 
+# LICENSE
+
+[BSD 3-Clause](LICENSE)
+
