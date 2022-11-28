@@ -1,7 +1,7 @@
 
 source 'https://rubygems.org'
 
-ruby '2.3.3'
+ruby '3.1.3'
 
 gem 'jira-ruby'
 gem 'rest-client'
