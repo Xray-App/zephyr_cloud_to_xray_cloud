@@ -15,14 +15,14 @@
 
 
 # Requirements
- - Ruby >= 2.3.3
+ - Ruby >= 3.1.3
  - rvm (http://www.rvm.io), to easily setup Ruby environment
  - bundler
  - having Zephyr for Jira Cloud, ZAPI for Jira Cloud and ZAPI for Jira Cloud installed in Jira Cloud instance
 
 
 # Setup
- - rvm use 2.3.3
+ - rvm use 3.1.3
  - gem install bundler
  - bundle
 
