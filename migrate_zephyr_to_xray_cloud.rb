@@ -3,7 +3,7 @@
 require 'rubygems'
 require 'jira-ruby'
 require 'json'
-require 'rest_client'
+require 'rest-client'
 require 'jwt'
 require 'optparse'
 require 'yaml'
