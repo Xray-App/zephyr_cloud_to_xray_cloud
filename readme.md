@@ -1,3 +1,4 @@
+## *This project is no longer actively maintained. It is also not covered by Xray product support. Please use it at your own risk.*
 
 # Features
  - creates (only) new Test issues, on the same or another project 
