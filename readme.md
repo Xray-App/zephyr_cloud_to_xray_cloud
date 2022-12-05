@@ -1,6 +1,16 @@
-## *This project is no longer actively maintained. It is also not covered by Xray product support. Please use it at your own risk.*
+## Important note
 
-# Features
+**This project is no longer actively maintained.**
+
+## Description
+
+This project contains some preliminary and **unmaintained** scripts to migrate Zephyr cloud to Xray Cloud.
+
+## Disclaimer
+
+These scripts are provided AS-IS, with no support from the Xray team. They require a high level of technical expertise with Xray and Jira.
+
+## Features
  - creates (only) new Test issues, on the same or another project 
  - source Test cases can be identified using JQL
  - copies: summary, description, fixVersion, components, labels, priority, custom fields (single value and multivalue)  
@@ -22,13 +32,13 @@
  - having Zephyr for Jira Cloud, ZAPI for Jira Cloud and ZAPI for Jira Cloud installed in Jira Cloud instance
 
 
-# Setup
+## Setup
  - rvm use 2.3.3
  - gem install bundler
  - bundle
 
 
-# How to use
+## How to use
 
 1. Create an API token in Jira, in order to obtain the jira_api_token, this can be done by accessing the following url: https://id.atlassian.com/manage/api-tokens
 2. Create an API key in ZAPI, in order to obtain a Access Key and a Secret Key
@@ -45,7 +55,7 @@ In order to see the full syntax, please use:
 $ migrate_zephyr_to_xray_cloud.rb --help
 ```
 
-# LICENSE
+## LICENSE
 
 [BSD 3-Clause](LICENSE)
 
