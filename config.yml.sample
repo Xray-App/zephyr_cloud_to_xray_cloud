@@ -9,7 +9,7 @@ jira_api_token: # e.g. jira_api_token
 jira_site: # e.g. https://example.atlassian.net/
 
 
-xray_api_base_url: https://xray.cloud.xpand-it.com
+xray_api_base_url: https://xray.cloud.getxray.app
 xray_client_id:
 xray_client_secret: 
 
